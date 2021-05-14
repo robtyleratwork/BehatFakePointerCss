@@ -1,0 +1,21 @@
+div#fakePointerLayer {
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  width: 40px;
+  height: 40px;
+  background-image: url("/bootstrap-icons/icons/hand-index-thumb-fill.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(1);
+}
+div#fakePointerLayer div {
+  width: inherit;
+  height: inherit;
+  background-image: url("/bootstrap-icons/icons/hand-index-thumb.svg");
+  background-repeat: inherit;
+  background-size: inherit;
+  filter: invert(0.5);
+}
+
+/*# sourceMappingURL=behatFakePointer.css.map */
